@@ -5,6 +5,7 @@ edition = "2024"
 description = "A Rust library to detect and block disposable/temporary email addresses during user registration."
 authors = []
 repository = "https://tempmail100.com"
+license = "MIT"
 
 [dev-dependencies]
 serde_json = "1.0.140"
@@ -16,4 +17,4 @@ doc-scrape-examples = true
 
 [package.metadata.example.quick_start]
 name = "quick_start"
-description = ""
+description = "A Rust library to detect and block disposable/temporary email addresses during user registration."
