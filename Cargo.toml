@@ -1,0 +1,19 @@
+[package]
+name = "disposable_email_domains"
+version = "0.1.0"
+edition = "2024"
+description = "A Rust library to detect and block disposable/temporary email addresses during user registration."
+authors = []
+repository = "https://tempmail100.com"
+
+[dev-dependencies]
+serde_json = "1.0.140"
+
+[[example]]
+name = "quick_start"
+path = "example/quick_start.rs"
+doc-scrape-examples = true
+
+[package.metadata.example.quick_start]
+name = "quick_start"
+description = ""
